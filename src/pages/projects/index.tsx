@@ -5,15 +5,17 @@ import {
   SiCss3,
   SiHtml5,
 } from "react-icons/si";
+import { Container } from "./styles";
+import BoraMarcar from "../../assets/boramarcar.png";
 
 export const Projects = () => {
   return (
-    <>
+    <Container>
       <span>{"<html>"}</span>
       <span>{"<body>"}</span>
       <h2>
         <span>{"<h2>"}</span>
-        React <SiReact /> + TypeScript <SiTypescript />
+        TypeScript <SiTypescript />
         <span>{"</h2>"}</span>
       </h2>
       <ul>
@@ -32,9 +34,9 @@ export const Projects = () => {
       </h2>
       <ul>
         <li>
-          <a href="#">
+          <a href="https://bora-marcar.vercel.app/login">
             <figure>
-              <img src="" alt="" />
+              <img src={BoraMarcar} alt="Bora marcar?" />
             </figure>
           </a>
         </li>
@@ -69,6 +71,6 @@ export const Projects = () => {
       </ul>
       <span>{"</body>"}</span>
       <span>{"</html>"}</span>
-    </>
+    </Container>
   );
 };
