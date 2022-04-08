@@ -34,10 +34,11 @@ a{
 li{
     list-style-type: none;
 }
-span{
-    font-size: 1rem;
-    font-family: var(--font-family-la-belle);
-    color: var(--color-gray-3);
+h1{
+    font-size: 33px;
+}
+p{
+    font-size: 14px;
 }
 
 button{

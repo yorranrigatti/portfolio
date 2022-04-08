@@ -16,6 +16,10 @@ export const StyledBurger = styled.div`
   flex-flow: column nowrap;
   cursor: pointer;
 
+  @media (min-width: 769px) {
+    display: none;
+  }
+
   div {
     width: 2rem;
     height: 0.25rem;

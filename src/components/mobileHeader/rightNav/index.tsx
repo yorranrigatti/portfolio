@@ -16,7 +16,7 @@ export const RightNav = ({ open, setOpen }: NavProps) => {
     <Ul open={open} setOpen={setOpen}>
       <li>
         <Link to="/" onClick={() => setOpen(!open)}>
-          Sobre
+          Inicio
         </Link>
       </li>
       <li>

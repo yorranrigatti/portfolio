@@ -16,6 +16,7 @@ export const Ul = styled.ul`
   padding-top: 3.5rem;
   transition: transform 0.3s ease-in-out;
   border: 1px solid var(--color-black);
+  z-index: 20;
 
   li {
     background: var(--color-gray-6);

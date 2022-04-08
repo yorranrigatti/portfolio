@@ -1,12 +1,14 @@
-import { BurgerMenu } from "./components/header/burgerMenu";
+import { DeskHeader } from "./components/deskHeader";
+import { BurgerMenu } from "./components/mobileHeader/burgerMenu";
 import { Routes } from "./routes";
 import GlobalStyle from "./styles/global";
 
 export const App = () => {
   return (
     <>
-      <GlobalStyle />
       <BurgerMenu />
+      <DeskHeader />
+      <GlobalStyle />
       <Routes />
     </>
   );
